@@ -27,7 +27,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>RepData_PeerAssessment1/PA1_template.Rmd at master · awalnazif/RepData_PeerAssessment1</title>
+  <title>RepData_PeerAssessment1/PA1_template.md at master · awalnazif/RepData_PeerAssessment1</title>
     <meta name="description" content="Peer Assessment 1 for Reproducible Research">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -37,10 +37,10 @@
     <meta property="og:image" content="https://avatars3.githubusercontent.com/u/14333486?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="awalnazif/RepData_PeerAssessment1" /><meta property="og:url" content="https://github.com/awalnazif/RepData_PeerAssessment1" /><meta property="og:description" content="RepData_PeerAssessment1 - Peer Assessment 1 for Reproducible Research" />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjkwOTM3OTM5Ojc0ODQxNjY1MTUwZTAxZTNjOTJjZGMxZTY0MWI0YTc0OTAwOTNhYWU3MWI5MjI2ODJmODJkY2NhOTM3NTc3OGE=--726e227ee0ac3ef1c43c70be5d8f047000700532">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjkwOTM3OTM5OmM0NTliODRlZWRiMzBkN2U5YWRjMzI5NjRhNTc5ZWQ2NDAzOWViMjhmMWE4MjI3NjIzZTVlOTJkMTgwOTQwZGU=--e913ea53be0d2c3ddec66b4f43420bba36861769">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="497B:1E01:239DF3C:420B4DD:5B55ABF2" data-pjax-transient>
+  <meta name="request-id" content="497B:1E01:239EF74:420C782:5B55AC02" data-pjax-transient>
 
 
   
@@ -52,7 +52,7 @@
   <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="497B:1E01:239DF3C:420B4DD:5B55ABF2" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="26546420" /><meta name="octolytics-actor-login" content="Murtuja07" /><meta name="octolytics-actor-hash" content="78973d748a304057a8b2494b8deee63f36c6d8fc72b1cfd9d0742aa2c7575a0c" />
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="497B:1E01:239EF74:420C782:5B55AC02" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="26546420" /><meta name="octolytics-actor-login" content="Murtuja07" /><meta name="octolytics-actor-hash" content="78973d748a304057a8b2494b8deee63f36c6d8fc72b1cfd9d0742aa2c7575a0c" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -68,7 +68,7 @@
     <meta name="user-login" content="Murtuja07">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="Mjg2MTgyNTMwY2Y2MDllZmNkYjcyZTg1NTI1Y2Q1YzA2ODlhMzllYWE5YmVkYzc1YTg5MWQ3MmU4YWU3YWEzNnx7InJlbW90ZV9hZGRyZXNzIjoiMTQ1LjguMTc5LjIwMyIsInJlcXVlc3RfaWQiOiI0OTdCOjFFMDE6MjM5REYzQzo0MjBCNEREOjVCNTVBQkYyIiwidGltZXN0YW1wIjoxNTMyMzQxMjQwLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+    <meta name="js-proxy-site-detection-payload" content="MDYxNjAyNGVjYjUyYmY3MTU5MjM5YjhlMDAyMmQ5NWYwZWRhNmI4MGJmODkyYmFiNDcxZDA0ODdhMzhmYzg3Znx7InJlbW90ZV9hZGRyZXNzIjoiMTQ1LjguMTc5LjIwMyIsInJlcXVlc3RfaWQiOiI0OTdCOjFFMDE6MjM5RUY3NDo0MjBDNzgyOjVCNTVBQzAyIiwidGltZXN0YW1wIjoxNTMyMzQxMjY2LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SEARCH,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES,SECURITY_CHECKUP">
 
@@ -84,7 +84,7 @@
   <meta name="octolytics-dimension-user_id" content="14333486" /><meta name="octolytics-dimension-user_login" content="awalnazif" /><meta name="octolytics-dimension-repository_id" content="141015961" /><meta name="octolytics-dimension-repository_nwo" content="awalnazif/RepData_PeerAssessment1" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="true" /><meta name="octolytics-dimension-repository_parent_id" content="16709733" /><meta name="octolytics-dimension-repository_parent_nwo" content="rdpeng/RepData_PeerAssessment1" /><meta name="octolytics-dimension-repository_network_root_id" content="16709733" /><meta name="octolytics-dimension-repository_network_root_nwo" content="rdpeng/RepData_PeerAssessment1" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/awalnazif/RepData_PeerAssessment1/blob/master/PA1_template.Rmd" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/awalnazif/RepData_PeerAssessment1/blob/master/PA1_template.md" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -153,7 +153,7 @@
           autocapitalize="off"
           aria-autocomplete="list"
           aria-controls="jump-to-results"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=rL61E5Lp7KBGlJTwFxjh/eduOo9raff9s010y5P9CR+d3Wjcnm7r6y9kgYXAKMTuAVV1SXUPGSQf4yeKpXobMw=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=g8nS3aikwfUc7L2TajrjSFomNKumXQEozcQKpeb5vrWyqg8SpCPGvnUcqOa9CsZbvB17bbg77/Fhalnk0H6smQ=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -295,7 +295,7 @@
           <li><a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a></li>
           <li><a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a></li>
           <li>
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Vn9bD+VxYY+zQgAq96Ig0FDFiLWEDFzBE7MLM3brdJc6Zb5T3UUd292t5zMgzr4LP04zVcjCzuJCTDXYrc4ZlA==" />
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="9kjJ/yg7ExoewcgvRZzulbFJ6Pi4SbboVdngcooe3miaUiyjEA9vTnAuLzaS8HBO3sJTGPSHJMsEJt6ZUTuzaw==" />
               <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
                 Sign out
               </button>
@@ -308,7 +308,7 @@
 
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="DA1+A0nuCgRbcP3erhDPUrs88Uc7k6iy35AiiyxuQSVgF5tfcdp2UDWfGsd5fFGJ1LdKp3ddOpGObxxg90ssJg==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="UQsOeLHpBc/W9WHlSULiIwsM04Qisl6dqOAc/1o9eGM9Eeskid15m7gahvyeLnz4ZIdoZG58zL75HyIUgRgVYA==" />
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -344,7 +344,7 @@
 
       <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="alArmuDu/g43S2fXZHr+WY3pDoti/hUUPTYwW/qXB7gbcFqwY/w+VyUNnEXVZTDVdp/WF4cQ3yccuPYKjt0mBg==" />      <input type="hidden" name="repository_id" id="repository_id" value="141015961" class="form-control" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="l2/B7HDZUl02MyRHLCNFXbDNPru0LehyNjIitVVKj3TmT7DG88uSBCR139WdPIvRS7vmJ1HDIkEXvOTkIQCuyg==" />      <input type="hidden" name="repository_id" id="repository_id" value="141015961" class="form-control" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/awalnazif/RepData_PeerAssessment1/subscription"
@@ -424,7 +424,7 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/awalnazif/RepData_PeerAssessment1/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="tJDogbqkzYWkCiBgAO4hCSEngw4MJ05wNgYGj9FDhRsN2aWFP4Y1FXD495ctd8OabAIR5tg74cE4TQRVN9c/Qg==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/awalnazif/RepData_PeerAssessment1/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="qfPWB37gfrC/pUlQ22l4jq23IvAGXOmrCU4VguAXOTUQupsD+8KGIGtXnqf28Jod4JKwGNJARhoHBRdYBoODbA==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -439,7 +439,7 @@
           0
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/awalnazif/RepData_PeerAssessment1/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="A0tUCzL9uctQO7+Pko7xfB2WN/B+gaeZqT6cZvW8ckEZ1u9rYJiKLW8isxeVdCB5JJkG9PUqd5LbKSGQpADFog==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/awalnazif/RepData_PeerAssessment1/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="nJyfSEgTmdY9aE9gN6b7Qpcx4nALLYBZL5O8Y8K4ovSGASQoGnaqMAJxQ/gwXCpHrj7TdICGUFJdhAGVkwQVFw==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -458,7 +458,7 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/awalnazif/RepData_PeerAssessment1/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="S8dzrpmTmGrBuu6fStGhZNTl9Qg/QnxhZ9P527xomEh/CZNLh6+V/Sly6x9YgcjayZgX4WmOuQ5pg5HrGIRhRw==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/awalnazif/RepData_PeerAssessment1/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="5oZ0Q9LGZnUgk+id62EEAVd8+aNY/Gm15ilaencRHA7SSJSmzPpr4shb7R35MW2/SgEbSg4wrNroeTJK0/3lAQ==" />
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -535,9 +535,9 @@
   <div class="repository-content ">
 
     
-  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/awalnazif/RepData_PeerAssessment1/blob/e10d9b5d973044dec43bc5eca6e32edeb2f1ce15/PA1_template.Rmd">Permalink</a>
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/awalnazif/RepData_PeerAssessment1/blob/e10d9b5d973044dec43bc5eca6e32edeb2f1ce15/PA1_template.md">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:531eef40f9c1380fcebd9f0a69b01dd2 -->
+  <!-- blob contrib key: blob_contributors:v21:4d72dc27cfa8308461cf578f9b5bff62 -->
 
   
 
@@ -581,7 +581,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/awalnazif/RepData_PeerAssessment1/blob/master/PA1_template.Rmd"
+               href="/awalnazif/RepData_PeerAssessment1/blob/master/PA1_template.md"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -620,12 +620,12 @@
       </clipboard-copy>
     </div>
     <div id="blob-path" class="breadcrumb">
-      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/awalnazif/RepData_PeerAssessment1"><span>RepData_PeerAssessment1</span></a></span></span><span class="separator">/</span><strong class="final-path">PA1_template.Rmd</strong>
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/awalnazif/RepData_PeerAssessment1"><span>RepData_PeerAssessment1</span></a></span></span><span class="separator">/</span><strong class="final-path">PA1_template.md</strong>
     </div>
   </div>
 
 
-  <include-fragment src="/awalnazif/RepData_PeerAssessment1/contributors/master/PA1_template.Rmd" class="commit-tease commit-loader">
+  <include-fragment src="/awalnazif/RepData_PeerAssessment1/contributors/master/PA1_template.md" class="commit-tease commit-loader">
     <div>
       Fetching contributors&hellip;
     </div>
@@ -642,25 +642,25 @@
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/awalnazif/RepData_PeerAssessment1/raw/master/PA1_template.Rmd">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/awalnazif/RepData_PeerAssessment1/blame/master/PA1_template.Rmd">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/awalnazif/RepData_PeerAssessment1/commits/master/PA1_template.Rmd">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/awalnazif/RepData_PeerAssessment1/raw/master/PA1_template.md">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/awalnazif/RepData_PeerAssessment1/blame/master/PA1_template.md">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/awalnazif/RepData_PeerAssessment1/commits/master/PA1_template.md">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
-           href="x-github-client://openRepo/https://github.com/awalnazif/RepData_PeerAssessment1?branch=master&amp;filepath=PA1_template.Rmd"
+           href="x-github-client://openRepo/https://github.com/awalnazif/RepData_PeerAssessment1?branch=master&amp;filepath=PA1_template.md"
            aria-label="Open this file in GitHub Desktop"
            data-ga-click="Repository, open with desktop, type:windows">
             <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/awalnazif/RepData_PeerAssessment1/edit/master/PA1_template.Rmd" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="xn1ld1XGuMiMrvrJAcc0FYsJqeQK8aCkZxtw4nsEJhJMwUS7oazobRJko0/5A8zDgcM0lRUWuLVaKZgJf+3D/A==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/awalnazif/RepData_PeerAssessment1/edit/master/PA1_template.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="XpzSYgc4ILH5KtCXxTjk1V7MLs1ZV/6nC4DIUBpkAR/6YYHGnPPEco/8gHVpz2VeVWEfyd9dvX+NZ7f/91P+pQ==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Edit the file in your fork of this project" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
             </button>
 </form>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/awalnazif/RepData_PeerAssessment1/delete/master/PA1_template.Rmd" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="lj6l1X4HP7go0Ne5+KZh2B/xeUm45IkI9GW7SccNSP0z0PvVDkkuT0mGrYCoj85+rbdXTyIjXlTacuUgxygWww==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/awalnazif/RepData_PeerAssessment1/delete/master/PA1_template.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="dP8TK7DBsmSaftyBGy39MGvpj6YAE7ovM2gf+KIA0JcKOr+b37HybmanP0lpzKYTV80IEa1+YRqoBVG1VeVkNw==" />
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Delete the file in your fork of this project" data-disable-with>
             <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -668,9 +668,9 @@
 </form>  </div>
 
   <div class="file-info">
-      123 lines (85 sloc)
+      248 lines (176 sloc)
       <span class="file-info-divider"></span>
-    3.99 KB
+    6.34 KB
   </div>
 </div>
 
@@ -696,66 +696,123 @@
 <h1><a id="user-content-name-awal-nazifemail-address-awalnazifyahoocom" class="anchor" aria-hidden="true" href="#name-awal-nazifemail-address-awalnazifyahoocom"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Name: Awal Nazif<br>
 Email address: <a href="mailto:awalnazif@yahoo.com">awalnazif@yahoo.com</a></h1>
 <p>##Loading the required packages:</p>
-<pre lang="{r"><code>require(dplyr)
-require(ggplot2)
-</code></pre>
+<div class="highlight highlight-source-r"><pre>require(<span class="pl-smi">dplyr</span>)
+require(<span class="pl-smi">ggplot2</span>)</pre></div>
 <p>##Loading and preprocessing the data</p>
 <p>Loading and viewing the structure of the dataset using read,csv () and str()</p>
-<pre lang="{r"><code>data &lt;- read.csv(file = "activity.csv", header = TRUE, na.strings = "NA", stringsAsFactors = FALSE)
-str(data)
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">data</span> <span class="pl-k">&lt;-</span> read.csv(<span class="pl-v">file</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>activity.csv<span class="pl-pds">"</span></span>, <span class="pl-v">header</span> <span class="pl-k">=</span> <span class="pl-c1">TRUE</span>, <span class="pl-v">na.strings</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>NA<span class="pl-pds">"</span></span>, <span class="pl-v">stringsAsFactors</span> <span class="pl-k">=</span> <span class="pl-c1">FALSE</span>)
+str(<span class="pl-smi">data</span>)</pre></div>
+<pre><code>## 'data.frame':	17568 obs. of  3 variables:
+##  $ steps   : int  NA NA NA NA NA NA NA NA NA NA ...
+##  $ date    : chr  "2012-10-01" "2012-10-01" "2012-10-01" "2012-10-01" ...
+##  $ interval: int  0 5 10 15 20 25 30 35 40 45 ...
 </code></pre>
 <p>Viewing the head (top) and tail (bottom) of the data to ensure the data is loaded properly</p>
-<pre lang="{r"><code>head(x = data, n = 10)
-tail(x = data, n = 10)
+<div class="highlight highlight-source-r"><pre>head(<span class="pl-v">x</span> <span class="pl-k">=</span> <span class="pl-smi">data</span>, <span class="pl-v">n</span> <span class="pl-k">=</span> <span class="pl-c1">10</span>)</pre></div>
+<pre><code>##    steps       date interval
+## 1     NA 2012-10-01        0
+## 2     NA 2012-10-01        5
+## 3     NA 2012-10-01       10
+## 4     NA 2012-10-01       15
+## 5     NA 2012-10-01       20
+## 6     NA 2012-10-01       25
+## 7     NA 2012-10-01       30
+## 8     NA 2012-10-01       35
+## 9     NA 2012-10-01       40
+## 10    NA 2012-10-01       45
+</code></pre>
+<div class="highlight highlight-source-r"><pre>tail(<span class="pl-v">x</span> <span class="pl-k">=</span> <span class="pl-smi">data</span>, <span class="pl-v">n</span> <span class="pl-k">=</span> <span class="pl-c1">10</span>)</pre></div>
+<pre><code>##       steps       date interval
+## 17559    NA 2012-11-30     2310
+## 17560    NA 2012-11-30     2315
+## 17561    NA 2012-11-30     2320
+## 17562    NA 2012-11-30     2325
+## 17563    NA 2012-11-30     2330
+## 17564    NA 2012-11-30     2335
+## 17565    NA 2012-11-30     2340
+## 17566    NA 2012-11-30     2345
+## 17567    NA 2012-11-30     2350
+## 17568    NA 2012-11-30     2355
 </code></pre>
 <p>Transforming the class of the date variable to date class</p>
-<pre lang="{r"><code>data &lt;- mutate(.data = data, date = as.Date(x = date))
-with(data = data, expr = class(date))
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">data</span> <span class="pl-k">&lt;-</span> mutate(<span class="pl-v">.data</span> <span class="pl-k">=</span> <span class="pl-smi">data</span>, <span class="pl-v">date</span> <span class="pl-k">=</span> as.Date(<span class="pl-v">x</span> <span class="pl-k">=</span> <span class="pl-smi">date</span>))
+with(<span class="pl-v">data</span> <span class="pl-k">=</span> <span class="pl-smi">data</span>, <span class="pl-v">expr</span> <span class="pl-k">=</span> class(<span class="pl-smi">date</span>))</pre></div>
+<pre><code>## [1] "Date"
 </code></pre>
 <p>##The mean total number of steps taken per day</p>
 <p>Total number of steps taken per day</p>
-<pre lang="{r"><code>group_by(.data = data, date) %&gt;% summarise(Total = sum(steps, na.rm = TRUE))
-</code></pre>
+<div class="highlight highlight-source-r"><pre>group_by(<span class="pl-v">.data</span> <span class="pl-k">=</span> <span class="pl-smi">data</span>, <span class="pl-smi">date</span>) %<span class="pl-k">&gt;</span>% summarise(<span class="pl-v">Total</span> <span class="pl-k">=</span> sum(<span class="pl-smi">steps</span>, <span class="pl-v">na.rm</span> <span class="pl-k">=</span> <span class="pl-c1">TRUE</span>))</pre></div>
 <p>Histogram of the total number of steps taken each day</p>
-<pre lang="{r}"><code>group_by(.data = data, date) %&gt;% summarise(steps = sum(steps, na.rm = TRUE)) %&gt;% ggplot() + geom_histogram(mapping = aes(steps)) + xlab("Total number of steps taken each day")
+<div class="highlight highlight-source-r"><pre>group_by(<span class="pl-v">.data</span> <span class="pl-k">=</span> <span class="pl-smi">data</span>, <span class="pl-smi">date</span>) %<span class="pl-k">&gt;</span>% summarise(<span class="pl-v">steps</span> <span class="pl-k">=</span> sum(<span class="pl-smi">steps</span>, <span class="pl-v">na.rm</span> <span class="pl-k">=</span> <span class="pl-c1">TRUE</span>)) %<span class="pl-k">&gt;</span>% ggplot() <span class="pl-k">+</span> geom_histogram(<span class="pl-v">mapping</span> <span class="pl-k">=</span> aes(<span class="pl-smi">steps</span>)) <span class="pl-k">+</span> xlab(<span class="pl-s"><span class="pl-pds">"</span>Total number of steps taken each day<span class="pl-pds">"</span></span>)</pre></div>
+<pre><code>## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 </code></pre>
+<p><a target="_blank" href="/awalnazif/RepData_PeerAssessment1/blob/master/figure/unnamed-chunk-5-1.png"><img src="/awalnazif/RepData_PeerAssessment1/raw/master/figure/unnamed-chunk-5-1.png" alt="plot of chunk unnamed-chunk-5" style="max-width:100%;"></a></p>
 <p>Mean and Median of the total number of steps taken per day</p>
-<pre lang="{r"><code>group_by(.data = data, date) %&gt;% summarise(Mean = mean(x = steps, na.rm = TRUE), Median = median(x = steps, na.rm = TRUE))
-</code></pre>
+<div class="highlight highlight-source-r"><pre>group_by(<span class="pl-v">.data</span> <span class="pl-k">=</span> <span class="pl-smi">data</span>, <span class="pl-smi">date</span>) %<span class="pl-k">&gt;</span>% summarise(<span class="pl-v">Mean</span> <span class="pl-k">=</span> mean(<span class="pl-v">x</span> <span class="pl-k">=</span> <span class="pl-smi">steps</span>, <span class="pl-v">na.rm</span> <span class="pl-k">=</span> <span class="pl-c1">TRUE</span>), <span class="pl-v">Median</span> <span class="pl-k">=</span> median(<span class="pl-v">x</span> <span class="pl-k">=</span> <span class="pl-smi">steps</span>, <span class="pl-v">na.rm</span> <span class="pl-k">=</span> <span class="pl-c1">TRUE</span>))</pre></div>
 <p>##The average daily activity pattern</p>
 <p>Time series plot of the 5-minute interval and average number of steps taken</p>
-<pre lang="{r}"><code>group_by(.data = data, interval) %&gt;% summarise(Average = mean(x = steps, na.rm = TRUE)) %&gt;% ggplot() + geom_line(mapping = aes(x = interval, y = Average)) + ylab(label = "Average Steps per Day")
-</code></pre>
+<div class="highlight highlight-source-r"><pre>group_by(<span class="pl-v">.data</span> <span class="pl-k">=</span> <span class="pl-smi">data</span>, <span class="pl-smi">interval</span>) %<span class="pl-k">&gt;</span>% summarise(<span class="pl-v">Average</span> <span class="pl-k">=</span> mean(<span class="pl-v">x</span> <span class="pl-k">=</span> <span class="pl-smi">steps</span>, <span class="pl-v">na.rm</span> <span class="pl-k">=</span> <span class="pl-c1">TRUE</span>)) %<span class="pl-k">&gt;</span>% ggplot() <span class="pl-k">+</span> geom_line(<span class="pl-v">mapping</span> <span class="pl-k">=</span> aes(<span class="pl-v">x</span> <span class="pl-k">=</span> <span class="pl-smi">interval</span>, <span class="pl-v">y</span> <span class="pl-k">=</span> <span class="pl-smi">Average</span>)) <span class="pl-k">+</span> ylab(<span class="pl-v">label</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Average Steps per Day<span class="pl-pds">"</span></span>)</pre></div>
+<p><a target="_blank" href="/awalnazif/RepData_PeerAssessment1/blob/master/figure/unnamed-chunk-6-1.png"><img src="/awalnazif/RepData_PeerAssessment1/raw/master/figure/unnamed-chunk-6-1.png" alt="plot of chunk unnamed-chunk-6" style="max-width:100%;"></a></p>
 <p>The 5-minute interval with the maximum number of steps</p>
-<pre lang="{r"><code>group_by(.data = data, interval) %&gt;% summarise(Average = mean(x = steps, na.rm = TRUE)) %&gt;% filter(Average == max(Average))
-</code></pre>
+<div class="highlight highlight-source-r"><pre>group_by(<span class="pl-v">.data</span> <span class="pl-k">=</span> <span class="pl-smi">data</span>, <span class="pl-smi">interval</span>) %<span class="pl-k">&gt;</span>% summarise(<span class="pl-v">Average</span> <span class="pl-k">=</span> mean(<span class="pl-v">x</span> <span class="pl-k">=</span> <span class="pl-smi">steps</span>, <span class="pl-v">na.rm</span> <span class="pl-k">=</span> <span class="pl-c1">TRUE</span>)) %<span class="pl-k">&gt;</span>% filter(<span class="pl-smi">Average</span> <span class="pl-k">==</span> max(<span class="pl-smi">Average</span>))</pre></div>
 <p>The 5-minute interval with maximum number of steps is <strong>835</strong>.</p>
 <p>##Imputing missing values</p>
 <p>The total number of missing values in the dataset</p>
-<pre lang="{r"><code>head(x = filter(.data = data, is.na(steps)), n = 10)
-tail(x = filter(.data = data, is.na(steps)), n = 10)
-rows &lt;- nrow(filter(.data = data, is.na(steps)))
+<div class="highlight highlight-source-r"><pre>head(<span class="pl-v">x</span> <span class="pl-k">=</span> filter(<span class="pl-v">.data</span> <span class="pl-k">=</span> <span class="pl-smi">data</span>, is.na(<span class="pl-smi">steps</span>)), <span class="pl-v">n</span> <span class="pl-k">=</span> <span class="pl-c1">10</span>)</pre></div>
+<pre><code>##    steps       date interval
+## 1     NA 2012-10-01        0
+## 2     NA 2012-10-01        5
+## 3     NA 2012-10-01       10
+## 4     NA 2012-10-01       15
+## 5     NA 2012-10-01       20
+## 6     NA 2012-10-01       25
+## 7     NA 2012-10-01       30
+## 8     NA 2012-10-01       35
+## 9     NA 2012-10-01       40
+## 10    NA 2012-10-01       45
 </code></pre>
-<p>The total number of missing values in the dataset is <strong><code>r rows</code></strong>.</p>
+<div class="highlight highlight-source-r"><pre>tail(<span class="pl-v">x</span> <span class="pl-k">=</span> filter(<span class="pl-v">.data</span> <span class="pl-k">=</span> <span class="pl-smi">data</span>, is.na(<span class="pl-smi">steps</span>)), <span class="pl-v">n</span> <span class="pl-k">=</span> <span class="pl-c1">10</span>)</pre></div>
+<pre><code>##      steps       date interval
+## 2295    NA 2012-11-30     2310
+## 2296    NA 2012-11-30     2315
+## 2297    NA 2012-11-30     2320
+## 2298    NA 2012-11-30     2325
+## 2299    NA 2012-11-30     2330
+## 2300    NA 2012-11-30     2335
+## 2301    NA 2012-11-30     2340
+## 2302    NA 2012-11-30     2345
+## 2303    NA 2012-11-30     2350
+## 2304    NA 2012-11-30     2355
+</code></pre>
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">rows</span> <span class="pl-k">&lt;-</span> nrow(filter(<span class="pl-v">.data</span> <span class="pl-k">=</span> <span class="pl-smi">data</span>, is.na(<span class="pl-smi">steps</span>)))</pre></div>
+<p>The total number of missing values in the dataset is <strong>2304</strong>.</p>
 <p>Creating a new dataset from the original dataset filling the missing data with the average of the 5-minutes interval</p>
-<pre lang="{r"><code>new_data &lt;- group_by(.data = data, interval) %&gt;% mutate(steps = ifelse(test = is.na(steps), yes = mean(x = steps, na.rm = TRUE), no = steps))
-head(x = new_data, n = 10)
-tail(x = new_data, n = 10)
-dim(x = new_data)
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">new_data</span> <span class="pl-k">&lt;-</span> group_by(<span class="pl-v">.data</span> <span class="pl-k">=</span> <span class="pl-smi">data</span>, <span class="pl-smi">interval</span>) %<span class="pl-k">&gt;</span>% mutate(<span class="pl-v">steps</span> <span class="pl-k">=</span> ifelse(<span class="pl-v">test</span> <span class="pl-k">=</span> is.na(<span class="pl-smi">steps</span>), <span class="pl-v">yes</span> <span class="pl-k">=</span> mean(<span class="pl-v">x</span> <span class="pl-k">=</span> <span class="pl-smi">steps</span>, <span class="pl-v">na.rm</span> <span class="pl-k">=</span> <span class="pl-c1">TRUE</span>), <span class="pl-v">no</span> <span class="pl-k">=</span> <span class="pl-smi">steps</span>))
+head(<span class="pl-v">x</span> <span class="pl-k">=</span> <span class="pl-smi">new_data</span>, <span class="pl-v">n</span> <span class="pl-k">=</span> <span class="pl-c1">10</span>)
+tail(<span class="pl-v">x</span> <span class="pl-k">=</span> <span class="pl-smi">new_data</span>, <span class="pl-v">n</span> <span class="pl-k">=</span> <span class="pl-c1">10</span>)
+dim(<span class="pl-v">x</span> <span class="pl-k">=</span> <span class="pl-smi">new_data</span>)</pre></div>
+<pre><code>## [1] 17568     3
 </code></pre>
 <p>Mean and Median of the total number of steps taken per day in the new dataset</p>
-<pre lang="{r"><code>group_by(.data = new_data, date) %&gt;% summarise(Mean = mean(x = steps), Median = median(x = steps))
-</code></pre>
+<div class="highlight highlight-source-r"><pre>group_by(<span class="pl-v">.data</span> <span class="pl-k">=</span> <span class="pl-smi">new_data</span>, <span class="pl-smi">date</span>) %<span class="pl-k">&gt;</span>% summarise(<span class="pl-v">Mean</span> <span class="pl-k">=</span> mean(<span class="pl-v">x</span> <span class="pl-k">=</span> <span class="pl-smi">steps</span>), <span class="pl-v">Median</span> <span class="pl-k">=</span> median(<span class="pl-v">x</span> <span class="pl-k">=</span> <span class="pl-smi">steps</span>))</pre></div>
 <p>Histogram of the total number of steps taken each day in the new dataset</p>
-<pre lang="{r}"><code>group_by(.data = new_data, date) %&gt;% summarise(steps = sum(steps)) %&gt;% ggplot() + geom_histogram(mapping = aes(x = steps)) + xlab("Total number of steps taken each day")
+<div class="highlight highlight-source-r"><pre>group_by(<span class="pl-v">.data</span> <span class="pl-k">=</span> <span class="pl-smi">new_data</span>, <span class="pl-smi">date</span>) %<span class="pl-k">&gt;</span>% summarise(<span class="pl-v">steps</span> <span class="pl-k">=</span> sum(<span class="pl-smi">steps</span>)) %<span class="pl-k">&gt;</span>% ggplot() <span class="pl-k">+</span> geom_histogram(<span class="pl-v">mapping</span> <span class="pl-k">=</span> aes(<span class="pl-v">x</span> <span class="pl-k">=</span> <span class="pl-smi">steps</span>)) <span class="pl-k">+</span> xlab(<span class="pl-s"><span class="pl-pds">"</span>Total number of steps taken each day<span class="pl-pds">"</span></span>)</pre></div>
+<pre><code>## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 </code></pre>
+<p><a target="_blank" href="/awalnazif/RepData_PeerAssessment1/blob/master/figure/unnamed-chunk-7-1.png"><img src="/awalnazif/RepData_PeerAssessment1/raw/master/figure/unnamed-chunk-7-1.png" alt="plot of chunk unnamed-chunk-7" style="max-width:100%;"></a></p>
 <p>##Differences in activity patterns between weekdays and weekends</p>
 <p>Creating a new factor variable in the dataset</p>
-<pre lang="{r"><code>weekday &lt;- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
-mutate(.data = new_data, Day = as.factor(x = ifelse(test = weekdays(date) %in% weekday, yes = "weekday", no = "weekend")))
-</code></pre>
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">weekday</span> <span class="pl-k">&lt;-</span> c(<span class="pl-s"><span class="pl-pds">"</span>Monday<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Tuesday<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Wednesday<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Thursday<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Friday<span class="pl-pds">"</span></span>)
+mutate(<span class="pl-v">.data</span> <span class="pl-k">=</span> <span class="pl-smi">new_data</span>, <span class="pl-v">Day</span> <span class="pl-k">=</span> as.factor(<span class="pl-v">x</span> <span class="pl-k">=</span> ifelse(<span class="pl-v">test</span> <span class="pl-k">=</span> weekdays(<span class="pl-smi">date</span>) <span class="pl-k">%in%</span> <span class="pl-smi">weekday</span>, <span class="pl-v">yes</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>weekday<span class="pl-pds">"</span></span>, <span class="pl-v">no</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>weekend<span class="pl-pds">"</span></span>)))</pre></div>
 <p>Making a time series panel plot</p>
-<pre lang="{r}"><code>mutate(.data = new_data, Day = as.factor(x = ifelse(test = weekdays(date) %in% weekday, yes = "weekday", no = "weekend"))) %&gt;% group_by(interval, Day) %&gt;% summarise(Average = mean(x = steps)) %&gt;% ggplot() + geom_line(mapping = aes(x = interval, y = Average)) + facet_grid(Day ~ .) + ylab(label = "Average Steps Taken")
+<div class="highlight highlight-source-r"><pre>mutate(<span class="pl-v">.data</span> <span class="pl-k">=</span> <span class="pl-smi">new_data</span>, <span class="pl-v">Day</span> <span class="pl-k">=</span> as.factor(<span class="pl-v">x</span> <span class="pl-k">=</span> ifelse(<span class="pl-v">test</span> <span class="pl-k">=</span> weekdays(<span class="pl-smi">date</span>) <span class="pl-k">%in%</span> <span class="pl-smi">weekday</span>, <span class="pl-v">yes</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>weekday<span class="pl-pds">"</span></span>, <span class="pl-v">no</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>weekend<span class="pl-pds">"</span></span>))) %<span class="pl-k">&gt;</span>% group_by(<span class="pl-smi">interval</span>, <span class="pl-smi">Day</span>) %<span class="pl-k">&gt;</span>% summarise(<span class="pl-v">Average</span> <span class="pl-k">=</span> mean(<span class="pl-v">x</span> <span class="pl-k">=</span> <span class="pl-smi">steps</span>)) %<span class="pl-k">&gt;</span>% ggplot() <span class="pl-k">+</span> geom_line(<span class="pl-v">mapping</span> <span class="pl-k">=</span> aes(<span class="pl-v">x</span> <span class="pl-k">=</span> <span class="pl-smi">interval</span>, <span class="pl-v">y</span> <span class="pl-k">=</span> <span class="pl-smi">Average</span>)) <span class="pl-k">+</span> facet_grid(<span class="pl-smi">Day</span> <span class="pl-k">~</span> .) <span class="pl-k">+</span> ylab(<span class="pl-v">label</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Average Steps Taken<span class="pl-pds">"</span></span>)</pre></div>
+<p><a target="_blank" href="/awalnazif/RepData_PeerAssessment1/blob/master/figure/unnamed-chunk-8-1.png"><img src="/awalnazif/RepData_PeerAssessment1/raw/master/figure/unnamed-chunk-8-1.png" alt="plot of chunk unnamed-chunk-8" style="max-width:100%;"></a></p>
+<div class="highlight highlight-source-r"><pre>knit(<span class="pl-s"><span class="pl-pds">"</span>PA1_template.Rmd<span class="pl-pds">"</span></span>,<span class="pl-s"><span class="pl-pds">"</span>PA1_template.md<span class="pl-pds">"</span></span>)</pre></div>
+<pre><code>## 
+## 
+## processing file: PA1_template.Rmd
+</code></pre>
+<pre><code>## Error in parse_block(g[-1], g[1], params.src): duplicate label 'packages'
 </code></pre>
 </article>
   </div>
@@ -785,7 +842,7 @@ mutate(.data = new_data, Day = as.factor(x = ifelse(test = weekdays(date) %in% w
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2018 <span title="0.82665s from unicorn-5d94c69b9f-962q7">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2018 <span title="0.41255s from unicorn-5d94c69b9f-gpbjb">GitHub</span>, Inc.</li>
         <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
